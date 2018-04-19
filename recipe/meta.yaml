@@ -33,9 +33,9 @@ about:
   home: http://hitchdev.com/strictyaml/
   license: MIT
   license_family: MIT
+  license_file: LICENSE.txt
   summary: 'Type-safe YAML parser and validator.'
   dev_url: https://github.com/crdoconnor/strictyaml
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE.txt'
 
 extra:
   recipe-maintainers:
