@@ -19,10 +19,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-strictyaml-green.svg)](https://anaconda.org/conda-forge/strictyaml)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/strictyaml.svg)](https://anaconda.org/conda-forge/strictyaml)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/strictyaml.svg)](https://anaconda.org/conda-forge/strictyaml)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/strictyaml.svg)](https://anaconda.org/conda-forge/strictyaml)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-strictyaml-green.svg)](https://anaconda.org/conda-forge/strictyaml) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/strictyaml.svg)](https://anaconda.org/conda-forge/strictyaml) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/strictyaml.svg)](https://anaconda.org/conda-forge/strictyaml) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/strictyaml.svg)](https://anaconda.org/conda-forge/strictyaml) |
 
 Installing strictyaml
 =====================
