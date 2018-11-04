@@ -1,6 +1,6 @@
 {% set name = "strictyaml" %}
-{% set version = "0.15.0" %}
-{% set sha256 = "a2a5682ccea2106e122de8c28d2ccb1c6037c6aa572e418f27386c20574e41c6" %}
+{% set version = "0.15.1" %}
+{% set sha256 = "a7d49f8fe9ec1411c7c5eed5fc94816a65d80f038b9519f35636e3c8db401980" %}
 
 package:
   name: {{ name|lower }}
