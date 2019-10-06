@@ -1,6 +1,6 @@
 {% set name = "strictyaml" %}
-{% set version = "1.0.4" %}
-{% set sha256 = "42ee66e71a6a1a3634e3d615b03d64914431f15f19f40ff815b88733433bf521" %}
+{% set version = "1.0.5" %}
+{% set sha256 = "aad8d90c4d300c5bfa7678b9680ce456406319859c7279e98110548b596b5ae7" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
