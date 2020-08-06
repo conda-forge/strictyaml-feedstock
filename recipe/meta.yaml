@@ -1,6 +1,6 @@
 {% set name = "strictyaml" %}
-{% set version = "1.0.6" %}
-{% set sha256 = "dd687a32577e0b832619ce0552eac86d6afad5fa7b61ab041bb765881c6a1f36" %}
+{% set version = "1.0.7" %}
+{% set sha256 = "35eb801732ded9ebd3de429c4fea2e05690947fb2f96cffb9989c4d7c423105d" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Type-safe YAML parser and validator.'
+  summary: Type-safe YAML parser and validator.
   dev_url: https://github.com/crdoconnor/strictyaml
 
 extra:
