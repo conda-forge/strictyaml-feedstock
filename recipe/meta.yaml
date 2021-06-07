@@ -1,6 +1,5 @@
 {% set name = "strictyaml" %}
 {% set version = "1.4.2" %}
-{% set sha256 = "ddb4e4e807dd510c9bc7fc50fc8d1369ed696ed5cc92d494b5e752ba8276a5a2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: ddb4e4e807dd510c9bc7fc50fc8d1369ed696ed5cc92d494b5e752ba8276a5a2
 
 build:
   noarch: python
@@ -22,7 +21,7 @@ requirements:
   run:
     - python
     - python-dateutil >=2.6.0
-    - ruamel.yaml >=0.14.2
+    - ruamel.yaml 0.17.4
 
 test:
   imports:
@@ -43,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - mcs07
+    - chrisburr
