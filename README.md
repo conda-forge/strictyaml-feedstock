@@ -1,11 +1,11 @@
-About strictyaml
-================
+About strictyaml-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/strictyaml-feedstock/blob/main/LICENSE.txt)
 
 Home: http://hitchdev.com/strictyaml/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/strictyaml-feedstock/blob/main/LICENSE.txt)
 
 Summary: Type-safe YAML parser and validator.
 
