@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 22f854a5fcab42b5ddba8030a0e4be51ca89af0267961c8d6cfa86395586c407
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=2.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=2.7
+    - python >={{ python_min }}
     - python-dateutil >=2.6.0
     - ruamel.yaml >=0.17
 
@@ -28,6 +28,7 @@ test:
     - strictyaml
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
